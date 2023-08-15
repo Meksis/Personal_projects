@@ -1,0 +1,3757 @@
+﻿{
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "8",
+                "name": "Новокосино"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.863994,
+                    55.745107
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Шоссе Энтузиастов",
+                "metroline": "14"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.746172,
+                    55.758927
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Соколиная Гора",
+                "metroline": "14"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.745095,
+                    55.771345
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Улица Милашенкова",
+                "metroline": "13"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.591278,
+                    55.821899
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Комсомольская",
+                "metroline": "5"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.654515,
+                    55.774694
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Арбатская",
+                "metroline": "3"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.606906,
+                    55.752096
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Бауманская",
+                "metroline": "3"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.680461,
+                    55.773
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    37.38224649198,
+                    55.835512270428
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Волоколамская",
+                "metroline": "3"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    37.781602467654,
+                    55.787739331238
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Измайловская",
+                "metroline": "3"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Киевская",
+                "metroline": "3"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.565503,
+                    55.744319
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    37.4081277546,
+                    55.756639494951
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Крылатское",
+                "metroline": "3"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    37.44597961941,
+                    55.730667227539
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Кунцевская",
+                "metroline": "3"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    37.658078118081,
+                    55.757997703923
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Курская",
+                "metroline": "3"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Митино",
+                "metroline": "3"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.362159,
+                    55.845788
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    37.416884755369,
+                    55.74078385818
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Молодежная",
+                "metroline": "3"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Мякинино",
+                "metroline": "3"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.385262,
+                    55.825075
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Парк Победы",
+                "metroline": "3"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.517703,
+                    55.736209
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Партизанская",
+                "metroline": "3"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.750983,
+                    55.788518
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Первомайская",
+                "metroline": "3"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.799446,
+                    55.794729
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Площадь Революции",
+                "metroline": "3"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.621887,
+                    55.756645
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Пятницкое шоссе",
+                "metroline": "3"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.354506,
+                    55.856497
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Семёновская",
+                "metroline": "3"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.721174,
+                    55.783294
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Смоленская",
+                "metroline": "3"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.581975,
+                    55.747408
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Славянский бульвар",
+                "metroline": "3"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.470747,
+                    55.729607
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Строгино",
+                "metroline": "3"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.403195,
+                    55.803736
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Щелковская",
+                "metroline": "3"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.798613,
+                    55.809341
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "3",
+                "name": "Электрозаводская"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.703639,
+                    55.781686
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    37.719412722525,
+                    55.753318568241
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "metroline": "11",
+                "name": "Авиамоторная"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    37.539488869799,
+                    55.74888760246
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Деловой Центр",
+                "metroline": "11"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    37.706702925951,
+                    55.76491651688
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Лефортово (БКЛ)",
+                "metroline": "15"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    37.557058430343,
+                    55.791889720919
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Петровский парк",
+                "metroline": "11"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    37.586424594987,
+                    55.792359591396
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "metroline": "11",
+                "name": "Савёловская"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    37.51920206144,
+                    55.776704131646
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Хорошевская",
+                "metroline": "11"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    37.533206685195,
+                    55.786563412194
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "ЦСКА",
+                "metroline": "11"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    37.524011805378,
+                    55.757128587348
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "metroline": "11",
+                "name": "Шелепиха"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    37.516485775048,
+                    55.53813363061
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "metroline": "12",
+                "name": "Бунинская аллея"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Улица Горчакова",
+                "metroline": "12"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.530709,
+                    55.541689
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Бульвар Адмирала Ушакова",
+                "metroline": "12"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.543257,
+                    55.545452
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Улица Скобелевская",
+                "metroline": "12"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.55466,
+                    55.548127
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "12",
+                "name": "Лесопарковая"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.576819,
+                    55.582093
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Битцевский парк",
+                "metroline": "12"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.556531,
+                    55.600147
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Автозаводская",
+                "metroline": "2"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.657755,
+                    55.707362
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Алма-Атинская",
+                "metroline": "2"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.766063,
+                    55.632746
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    37.744498120646,
+                    55.613763259028
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Красногвардейская",
+                "metroline": "2"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Домодедовская",
+                "metroline": "2"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.718638,
+                    55.610838
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Орехово",
+                "metroline": "2"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.694583,
+                    55.613387
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Царицыно",
+                "metroline": "2"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.669273,
+                    55.621468
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Кантемировская",
+                "metroline": "2"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.656587,
+                    55.635713
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Каширская",
+                "metroline": "2"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.648893,
+                    55.654983
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Коломенская",
+                "metroline": "2"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.663906,
+                    55.678461
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Технопарк",
+                "metroline": "2"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.664395,
+                    55.693652
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Павелецкая",
+                "metroline": "2"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.637269,
+                    55.73088
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Новокузнецкая",
+                "metroline": "2"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.629252,
+                    55.741715
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Маяковская",
+                "metroline": "2"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.595218,
+                    55.770242
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Белорусская",
+                "metroline": "2"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.583204,
+                    55.776929
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    37.558228,
+                    55.7897309049
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Динамо",
+                "metroline": "2"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "2",
+                "name": "Аэропорт"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.533131,
+                    55.800398
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Сокол",
+                "metroline": "2"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.515087,
+                    55.805252
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Войковская",
+                "metroline": "2"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.498054,
+                    55.819059
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Водный стадион",
+                "metroline": "2"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.486819,
+                    55.839921
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "2",
+                "name": "Речной вокзал"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.476293,
+                    55.854874
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ховрино",
+                "metroline": "2"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.481201,
+                    55.877693
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    37.474985683243,
+                    55.865013875984
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Беломорская",
+                "metroline": "2"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "8",
+                "name": "Новогиреево"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.816684,
+                    55.751759
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Перово",
+                "metroline": "8"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.786489,
+                    55.751184
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Шоссе Энтузиастов",
+                "metroline": "8"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.749346,
+                    55.75755
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "8",
+                "name": "Авиамоторная"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.720044,
+                    55.75253
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Площадь Ильича",
+                "metroline": "8"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.68307,
+                    55.747198
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Марксистская",
+                "metroline": "8"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.652907,
+                    55.741405
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Третьяковская",
+                "metroline": "8"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.627221,
+                    55.741292
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Новоясеневская",
+                "metroline": "6"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.553954,
+                    55.601076
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ясенево",
+                "metroline": "6"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.533331,
+                    55.606337
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Теплый Стан",
+                "metroline": "6"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.508199,
+                    55.618837
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "6",
+                "name": "Коньково"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.518997,
+                    55.633148
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Беляево",
+                "metroline": "6"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.525645,
+                    55.642767
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Калужская",
+                "metroline": "6"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.540638,
+                    55.657216
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Новые Черёмушки",
+                "metroline": "6"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.55471,
+                    55.670323
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Профсоюзная",
+                "metroline": "6"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.562945,
+                    55.677992
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Академическая",
+                "metroline": "6"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.573432,
+                    55.687822
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ленинский проспект",
+                "metroline": "6"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.586259,
+                    55.707666
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Шаболовская",
+                "metroline": "6"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.607916,
+                    55.720066
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Октябрьская",
+                "metroline": "6"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.611246,
+                    55.73052
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "6",
+                "name": "Китай-город"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.633517,
+                    55.755662
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "6",
+                "name": "Тургеневская"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.637424,
+                    55.766491
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "6",
+                "name": "Сухаревская"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.63108,
+                    55.773326
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Проспект Мира",
+                "metroline": "6"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.632026,
+                    55.78092
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Рижская",
+                "metroline": "6"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.636482,
+                    55.793682
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Алексеевская",
+                "metroline": "6"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.638911,
+                    55.808692
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "ВДНХ",
+                "metroline": "6"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.641311,
+                    55.821284
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ботанический сад",
+                "metroline": "6"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.638352,
+                    55.845043
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Свиблово",
+                "metroline": "6"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.652919,
+                    55.85523
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Бабушкинская",
+                "metroline": "6"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.664201,
+                    55.869621
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Медведково",
+                "metroline": "6"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.661546,
+                    55.887179
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Варшавская",
+                "metroline": "11"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.619401,
+                    55.653295
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Белорусская",
+                "metroline": "5"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.584145,
+                    55.776198
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Добрынинская",
+                "metroline": "5"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.624364,
+                    55.729105
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "5",
+                "name": "Киевская"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.565589,
+                    55.744675
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Краснопресненская",
+                "metroline": "5"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.577301,
+                    55.76103
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Курская",
+                "metroline": "5"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.659352,
+                    55.757209
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Новослободская",
+                "metroline": "5"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.603408,
+                    55.779831
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Октябрьская",
+                "metroline": "5"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.609532,
+                    55.729753
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "5",
+                "name": "Павелецкая"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.638007,
+                    55.732205
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Парк Культуры",
+                "metroline": "5"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.591448,
+                    55.735774
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Проспект Мира",
+                "metroline": "5"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.631768,
+                    55.779616
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Таганская",
+                "metroline": "5"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.651383,
+                    55.741629
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Забликово",
+                "metroline": "10"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.745176,
+                    55.612944
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Шипиловская",
+                "metroline": "10"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.743762,
+                    55.621154
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Борисово",
+                "metroline": "10"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.743814,
+                    55.633549
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Марьино",
+                "metroline": "10"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.743308,
+                    55.650012
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "10",
+                "name": "Братиславская"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.750736,
+                    55.659768
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "10",
+                "name": "Люблино"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.761909,
+                    55.675639
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Волжская",
+                "metroline": "10"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.753362,
+                    55.690827
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    37.72685123176,
+                    55.693537507449
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Печатники",
+                "metroline": "10"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Кожуховская",
+                "metroline": "10"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.684736,
+                    55.707431
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Дубровка",
+                "metroline": "10"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.676274,
+                    55.718259
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Крестьянская застава",
+                "metroline": "10"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.667472,
+                    55.733186
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Римская",
+                "metroline": "10"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.683192,
+                    55.746342
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Чкаловская",
+                "metroline": "10"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.657161,
+                    55.756603
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "10",
+                "name": "Сретенский бульвар"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.63995,
+                    55.766943
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Трубная",
+                "metroline": "10"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.619651,
+                    55.769054
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Достоевская",
+                "metroline": "10"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.614938,
+                    55.781041
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Марьина Роща",
+                "metroline": "10"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.616317,
+                    55.795426
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "10",
+                "name": "Бутырская"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.602574,
+                    55.813336
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Фонвизинская",
+                "metroline": "10"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.587729,
+                    55.822927
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Петровско-Разумовская",
+                "metroline": "10"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.574986,
+                    55.834951
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    37.573811615645,
+                    55.846099735052
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Окружная",
+                "metroline": "10"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    37.561261617381,
+                    55.856176967507
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Верхние Лихоборы",
+                "metroline": "10"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    37.547201101603,
+                    55.866590324071
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Селигерская",
+                "metroline": "10"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Выставочная",
+                "metroline": "4"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.541376,
+                    55.750067
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Международная",
+                "metroline": "4"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.534406,
+                    55.748297
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Улица Сергея Эйзенштейна",
+                "metroline": "13"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.644905,
+                    55.829241
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Выставочный центр",
+                "metroline": "13"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.638394,
+                    55.824036
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "13",
+                "name": "Улица Академика Королева"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.627025,
+                    55.821854
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Телецентр",
+                "metroline": "13"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.608959,
+                    55.821837
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "13",
+                "name": "Тимирязевская"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.578824,
+                    55.818962
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Кунцевская",
+                "metroline": "4"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.446004,
+                    55.730748
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Пионерская",
+                "metroline": "4"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.467121,
+                    55.735977
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Филёвский парк",
+                "metroline": "4"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.4834,
+                    55.739516
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Багартионовская",
+                "metroline": "4"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.497751,
+                    55.743735
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Фили",
+                "metroline": "4"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.514883,
+                    55.74609
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Кутузовская",
+                "metroline": "4"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.534366,
+                    55.74001
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Студенческая",
+                "metroline": "4"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.548411,
+                    55.738816
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Смоленская",
+                "metroline": "4"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.582476,
+                    55.748794
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Арбатская",
+                "metroline": "4"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.600718,
+                    55.751875
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "4",
+                "name": "Александровский Сад"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.608744,
+                    55.752413
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    37.928354461028,
+                    55.702831311913
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Некрасовка",
+                "metroline": "15"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    37.90044192191,
+                    55.708476087412
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Лухмановская",
+                "metroline": "15"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    37.879250435962,
+                    55.710312835066
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Улица Дмитриевского",
+                "metroline": "15"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    37.851286651578,
+                    55.703426178537
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Косино",
+                "metroline": "15"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    37.819468073198,
+                    55.70487897252
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Юго-Восточная",
+                "metroline": "15"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    37.781255427927,
+                    55.718638368171
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Окская",
+                "metroline": "15"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    37.751725078213,
+                    55.727306338645
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Стахановская",
+                "metroline": "15"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    37.730130751255,
+                    55.73174292314
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Нижегородская",
+                "metroline": "15"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Алтуфьево",
+                "metroline": "9"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.587344,
+                    55.897925
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "9",
+                "name": "Бибирево"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.603863,
+                    55.883732
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "9",
+                "name": "Отрадное"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.604803,
+                    55.863316
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "9",
+                "name": "Владыкино"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.589957,
+                    55.847188
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "9",
+                "name": "Тимирязевская"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.576353,
+                    55.817244
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "9",
+                "name": "Дмитровская"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.581925,
+                    55.806708
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "9",
+                "name": "Савёловская"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.588725,
+                    55.792589
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "9",
+                "name": "Менделевская"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.601418,
+                    55.780987
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "9",
+                "name": "Цветной Бульвар"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.617933,
+                    55.770901
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "9",
+                "name": "Чеховская"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.609014,
+                    55.764803
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "9",
+                "name": "Боровицкая"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.607141,
+                    55.750987
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "9",
+                "name": "Полянка"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.617026,
+                    55.738328
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    37.624783573566,
+                    55.728049862557
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Серпуховская",
+                "metroline": "9"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    37.622881616535,
+                    55.708731500666
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Тульская",
+                "metroline": "9"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "9",
+                "name": "Нагатинская"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.62251,
+                    55.682841
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "9",
+                "name": "Нагорная"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.610228,
+                    55.672038
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "9",
+                "name": "Нахимовский проспект"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.605524,
+                    55.662558
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "9",
+                "name": "Севастопольская"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.598323,
+                    55.652366
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "9",
+                "name": "Чертановская"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.606581,
+                    55.64048
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "9",
+                "name": "Южная"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.609305,
+                    55.622408
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "9",
+                "name": "Пражская"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.604514,
+                    55.612394
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "9",
+                "name": "Улица Академика Янгеля"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.600425,
+                    55.595085
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "9",
+                "name": "Аннино"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.596548,
+                    55.582554
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "9",
+                "name": "Бульвар Дмитрия Донского"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.576681,
+                    55.568978
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "1",
+                "name": "Бульвар Рокосовского"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.734112,
+                    55.814747
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "1",
+                "name": "Черкизовская"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.745053,
+                    55.803965
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "1",
+                "name": "Преображенская площадь"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.715576,
+                    55.796356
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "1",
+                "name": "Сокольники"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.68034,
+                    55.788801
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "1",
+                "name": "Красносельская"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.668994,
+                    55.780949
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "1",
+                "name": "Комсомольская"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.656048,
+                    55.77518
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "1",
+                "name": "Красные ворота"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.648916,
+                    55.768994
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "1",
+                "name": "Чистые пруды"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.639162,
+                    55.765887
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "1",
+                "name": "Лубянка"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.62768,
+                    55.759844
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "1",
+                "name": "Охотный ряд"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.616639,
+                    55.75784
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "1",
+                "name": "Кропоткинская"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.603899,
+                    55.745476
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "1",
+                "name": "Фрунзенская"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.578656,
+                    55.726951
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    37.564059229373,
+                    55.723339653188
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Спортивная",
+                "metroline": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "1",
+                "name": "Воробьевы горы"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.559294,
+                    55.710342
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "1",
+                "name": "Университет"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.533313,
+                    55.692675
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    37.506054934853,
+                    55.67719248719
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Проспект Вернадского",
+                "metroline": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "1",
+                "name": "Юго-Западная"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.483266,
+                    55.663698
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "1",
+                "name": "Тропарево"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.47266,
+                    55.645934
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "1",
+                "name": "Румянцево"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.441631,
+                    55.632943
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "1",
+                "name": "Саларьево"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.424214,
+                    55.621897
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    37.407662271495,
+                    55.601394207639
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Филатов Луг",
+                "metroline": "1"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    37.433850583235,
+                    55.586219407015
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Прокшино",
+                "metroline": "1"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    37.459346941334,
+                    55.568633034205
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Ольховая",
+                "metroline": "1"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    37.467964579999,
+                    55.560594589573
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Коммунарка",
+                "metroline": "1"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    37.436496151081,
+                    55.860763302698
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Планерная",
+                "metroline": "7"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "7",
+                "name": "Сходненская"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.439793,
+                    55.850503
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "7",
+                "name": "Тушинская"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.436974,
+                    55.826547
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "7",
+                "name": "Спартак"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.43574,
+                    55.818286
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "7",
+                "name": "Щукинская"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.464384,
+                    55.808621
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "7",
+                "name": "Октябрьское поле"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.493811,
+                    55.793353
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "7",
+                "name": "Полежаевская"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.519369,
+                    55.777492
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "7",
+                "name": "Беговая"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.546456,
+                    55.773549
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "7",
+                "name": "Улица 1905 года"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.561159,
+                    55.765002
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "7",
+                "name": "Баррикадная"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.579552,
+                    55.761052
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "7",
+                "name": "Пушкинская"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.607183,
+                    55.765463
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "7",
+                "name": "Кузнецкий мост"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.626253,
+                    55.760747
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "7",
+                "name": "Таганская"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.651702,
+                    55.740694
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "7",
+                "name": "Пролетарская"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.665956,
+                    55.731836
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "7",
+                "name": "Волгоградский Проспект"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.686854,
+                    55.725238
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "7",
+                "name": "Текстильщики"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.731921,
+                    55.708771
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "7",
+                "name": "Кузьминки"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.765827,
+                    55.705563
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "7",
+                "name": "Рязанский Проспект"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.793455,
+                    55.717098
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "7",
+                "name": "Выхино"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.817899,
+                    55.715602
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "7",
+                "name": "Лермонтовский проспект"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.852046,
+                    55.701616
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "7",
+                "name": "Жулебино"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.856182,
+                    55.685307
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "7",
+                "name": "Котельники"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.858225,
+                    55.674473
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "8А",
+                "name": "Минская"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.496722,
+                    55.724783
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    37.518056959162,
+                    55.736555368351
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Парк Победы",
+                "metroline": "8А"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "8А",
+                "name": "Ломоносовский Проспект"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.516228,
+                    55.707132
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "8А",
+                "name": "Раменки"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.498493,
+                    55.697552
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    37.417224124473,
+                    55.659581280042
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Говорово",
+                "metroline": "8А"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    37.391109052632,
+                    55.649578122846
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Солнцево",
+                "metroline": "8А"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    37.370429393282,
+                    55.647747940757
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Боровское шоссе",
+                "metroline": "8А"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    37.355177533319,
+                    55.639645429655
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Новопеределкино",
+                "metroline": "8А"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    37.335026997967,
+                    55.634018530885
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Рассказовка",
+                "metroline": "8А"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    37.448706523328,
+                    55.670495545958
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Озёрная",
+                "metroline": "8А"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    37.48292102522,
+                    55.689374544197
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Мичуринский проспект",
+                "metroline": "8А"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    37.538146660125,
+                    55.748758619238
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Деловой центр",
+                "metroline": "8А"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "14",
+                "name": "Автозаводская"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.663054,
+                    55.706361
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "14",
+                "name": "Андроновка"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.737729,
+                    55.747035
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    37.496410969468,
+                    55.825892552762
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Балтийская",
+                "metroline": "14"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "14",
+                "name": "Белокаменная"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.702443,
+                    55.829326
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "14",
+                "name": "Ботанический Сад"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.63976,
+                    55.845602
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "14",
+                "name": "Бульвар Рокоссовского"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.737977,
+                    55.816715
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "14",
+                "name": "Верхние Котлы"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.618871,
+                    55.690127
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "14",
+                "name": "Владыкино"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.592791,
+                    55.847388
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "14",
+                "name": "Деловой Центр"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.532021,
+                    55.747525
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "14",
+                "name": "Дубровка"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.677857,
+                    55.712654
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "14",
+                "name": "Дубровка"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.677857,
+                    55.712654
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "14",
+                "name": "ЗИЛ"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.647525,
+                    55.697892
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "14",
+                "name": "Зорге"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.504316,
+                    55.788496
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "14",
+                "name": "Измайлово"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.743173,
+                    55.789807
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "14",
+                "name": "Коптево"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.520297,
+                    55.83971
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "14",
+                "name": "Крымская"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.605724,
+                    55.689855
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "14",
+                "name": "Кутузовская"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.534093,
+                    55.73991
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "14",
+                "name": "Лихоборы"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.551465,
+                    55.847136
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "14",
+                "name": "Локомотив"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.74591,
+                    55.803996
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "14",
+                "name": "Лужники"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.561284,
+                    55.720618
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "14",
+                "name": "Нижегородская"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.728175,
+                    55.732218
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "14",
+                "name": "Новохохловская"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.717027,
+                    55.724118
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "14",
+                "name": "Окружная"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.571147,
+                    55.848925
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "14",
+                "name": "Панфиловская"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.499049,
+                    55.799034
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "14",
+                "name": "Площадь Гагарина"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.585837,
+                    55.707336
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "14",
+                "name": "Ростокино"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.666873,
+                    55.839682
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "14",
+                "name": "Стрешнево"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.48687,
+                    55.813695
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "14",
+                "name": "Угрешская"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.697771,
+                    55.718445
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "metroline": "14",
+                "name": "Хорошево"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.507348,
+                    55.777108
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Шелепиха",
+                "metroline": "14"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.525656,
+                    55.757329
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    37.48497523225,
+                    55.775703565845
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Народное Ополчение",
+                "metroline": "11"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    37.471362431556,
+                    55.761087656495
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Мнёвники",
+                "metroline": "11"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    37.702914884925,
+                    55.780433072655
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "name": "Электрозаводская",
+                "metroline": "15"
+            }
+        }
+    ],
+    "type": "FeatureCollection"
+}
