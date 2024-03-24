@@ -1,5 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from selenium.common.exceptions import StaleElementReferenceException
+
 
 import pandas as pd
 
@@ -110,6 +112,15 @@ class Obligations_parser:
                         paper_data.update({'Доходность(% в год)' : [round(paper_data['Доходность(год)'][0] / paper_data['Цена'][0] * 100, 2)]})
 
                     
+
+                    case 'Дата выплаты купона':
+                        paper_data.update({'Дата купона' : pd.to_datetime(paper_datas[counter].text, dayfirst=True)})
+
+                    case 'Накопленный купонный доход':
+                        paper_data.update({'НКД' : float(''.join(paper_datas[counter].text.split('\n')[0].split(' ')))})
+
+
+
                     case 'Амортизация':
                         paper_data.update({'Амортизация' : [True] if paper_datas[counter] == 'Да' else [False]})
                     
@@ -129,6 +140,8 @@ class Obligations_parser:
 
             
             self.driver.close()
+            self.driver.switch_to.window(self.driver.window_handles[0])
+
 
         except Exception:
             print('Тулево словили ошибулю')
@@ -152,11 +165,28 @@ class Obligations_parser:
         for paper in papers_rows:
             self.driver.switch_to.window(self.driver.window_handles[-1])
 
+
+
+            try:
+                paper_link = paper.find_element(By.XPATH, 'td')
+                paper_link = paper_link.find_element(By.XPATH, 'a')
+                paper_link = paper_link.get_attribute('href')
+
+            except StaleElementReferenceException:
+                self.driver.refresh()
+                
+            except Exception as e:
+                print(f"{e}")
+
+
             try:
                 paper_link = paper.find_element(XPATH, 'td').find_element(XPATH, 'a').get_attribute('href')
             
             except:
-                time.sleep(3)
+                # time.sleep(3)
+                # self.driver.switch_to.window(self.driver.window_handles[0])
+                self.driver.refresh()
+
                 paper_link = paper.find_element(XPATH, 'td').find_element(XPATH, 'a').get_attribute('href')
             
             
@@ -164,14 +194,18 @@ class Obligations_parser:
             print(len(self.obligations_data), '\n')
 
         
+
+        time.sleep(2)
         self.driver.switch_to.window(self.driver.window_handles[0])
 
-        if len(self.driver.find_elements(By.CLASS_NAME, 'Pagination-module__item_arrow_mCpmW')) == 2:
-            self.next_layer()
-        
-        else:
+        if self.driver.find_elements(By.CLASS_NAME, 'Pagination-module__item_arrow_mCpmW')[-1].get_attribute("disabled"):       # Если кнопка переключения на следующую страницу отключена - больше данных нет
             print(f'Вышли из функции, поскольку Больше страниц нет')
+            self.driver.quit()
             return(self.obligations_data)
+
+        else:
+            self.next_layer()
+            
         
 class DataProcessing():
     def change_url(self, url, start_val, end_val):
