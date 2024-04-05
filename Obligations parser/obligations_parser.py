@@ -1,6 +1,9 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import StaleElementReferenceException
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import WebDriverWait
+# import selenium.webdriver.support.wait as wait
 
 
 import pandas as pd
@@ -24,6 +27,7 @@ class Obligations_parser:
         self.driver.maximize_window()
         self.prev_window_switch = 0
         self.previous_url = url
+        self.wait = WebDriverWait(self.driver, 15)  # Ожидание до 10 секунд
 
         self.driver.get(url)
         self.obligations_data = existing_df.copy()
@@ -108,8 +112,15 @@ class Obligations_parser:
                         # paper_data.update({'Доходность(все время)' : [paper_data['Срок(месяца)'][0] // 2 * paper_data['Доходность(год)'][0]]})
                         # paper_data.update({'Доходность(все время)' : [paper_data['Срок(месяца)'][0] // paper_data['Выплат в год'][0] * paper_data['Величина купона(-13%)'][0]]})
 
-                        paper_data.update({'Доходность(все время)' : [round(paper_data['Срок(месяца)'][0] // paper_data['Выплат в год'][0] * paper_data['Величина купона(-13%)'][0], 2)]})
+                        if 'Срок(месяца)' not in list(paper_data.keys()):
+                            paper_data.update({'Срок(месяца)' : [-1]})
+
+                        paper_data.update({'Осталось выплат' : [round(paper_data['Выплат в год'][0] / 12 * paper_data['Срок(месяца)'][0])]})
+
+                        # paper_data.update({'Доходность(все время)' : [round(paper_data['Срок(месяца)'][0] // paper_data['Выплат в год'][0] * paper_data['Величина купона(-13%)'][0] * paper_data['Выплат в год'][0], 2)]})
                         paper_data.update({'Доходность(% в год)' : [round(paper_data['Доходность(год)'][0] / paper_data['Цена'][0] * 100, 2)]})
+                        paper_data.update({'Доходность(все время)' : [round(paper_data['Осталось выплат'][0] * paper_data['Величина купона(-13%)'][0])]})
+
 
                     
 
@@ -125,9 +136,19 @@ class Obligations_parser:
                         paper_data.update({'Амортизация' : [True] if paper_datas[counter] == 'Да' else [False]})
                     
 
-            print(paper_data)
 
             paper_data.update({'Ссылка' : [paper_url]})
+
+            # Этот блок кода не актуален, пока не войду в аккаунт. Если не войти, данных о необходимом статусе квала нет на сайте.
+            try:
+                self.driver.find_element(By.CLASS_NAME, 'SecurityQualBlock__text_ZXLNO')
+                paper_data.update({'Статус квал. инвестора' : ['Необходим']})
+            
+            except:
+                paper_data.update({'Статус квал. инвестора' : ['Не важен / Неизвестно']})
+
+
+            print(paper_data)
 
             
 
@@ -150,62 +171,108 @@ class Obligations_parser:
             self.grab_paper_info()
 
 
-    def elements_iterator(self):
+    # def elements_iterator(self):
 
-        # link_buttons_class = 'Link-module__link_yQVl1 Link-module__link_theme_default_mkRhf'
+    #     # link_buttons_class = 'Link-module__link_yQVl1 Link-module__link_theme_default_mkRhf'
 
-        # Использую тр и тд, поскольку на сайте в строках тр 5 ссылок с нужным адресом, потому просто по классу ссылки не выйдет найти одно совпадение - придется потом чистить список. Приходится потихоьнку находить элементы.
-        # tr_link_buttons_class = 'Table-module__row_Qlwsh Table-module__row_clickable_FeO1O'
-        tr_link_buttons_class = 'TableRowCell-module__row_clickable_noFXY'
-        # td_link_buttons_class = 'Table-module__cell_RJ0qz'
+    #     # Использую тр и тд, поскольку на сайте в строках тр 5 ссылок с нужным адресом, потому просто по классу ссылки не выйдет найти одно совпадение - придется потом чистить список. Приходится потихоьнку находить элементы.
+    #     # tr_link_buttons_class = 'Table-module__row_Qlwsh Table-module__row_clickable_FeO1O'
+    #     tr_link_buttons_class = 'TableRowCell-module__row_clickable_noFXY'
+    #     # td_link_buttons_class = 'Table-module__cell_RJ0qz'
 
-        # papers_rows = self.driver.find_elements(XPATH, f'//tr[@class = "{tr_link_buttons_class}"]')
-        papers_rows = self.driver.find_elements(By.CLASS_NAME, tr_link_buttons_class)
+    #     # papers_rows = self.driver.find_elements(XPATH, f'//tr[@class = "{tr_link_buttons_class}"]')
+    #     papers_rows = self.driver.find_elements(By.CLASS_NAME, tr_link_buttons_class)
         
-        for paper in papers_rows:
-            self.driver.switch_to.window(self.driver.window_handles[-1])
+    #     for paper in papers_rows:
+    #         self.driver.switch_to.window(self.driver.window_handles[-1])
 
 
 
-            try:
-                paper_link = paper.find_element(By.XPATH, 'td')
-                paper_link = paper_link.find_element(By.XPATH, 'a')
-                paper_link = paper_link.get_attribute('href')
+    #         try:
+    #             paper_link = paper.find_element(By.XPATH, 'td')
+    #             paper_link = paper_link.find_element(By.XPATH, 'a')
+    #             paper_link = paper_link.get_attribute('href')
 
-            except StaleElementReferenceException:
-                self.driver.refresh()
+    #         except StaleElementReferenceException:
+    #             self.driver.refresh()
                 
-            except Exception as e:
-                print(f"{e}")
+    #         except Exception as e:
+    #             print(f"{e}")
 
 
-            try:
-                paper_link = paper.find_element(XPATH, 'td').find_element(XPATH, 'a').get_attribute('href')
+    #         try:
+    #             paper_link = paper.find_element(XPATH, 'td').find_element(XPATH, 'a').get_attribute('href')
             
-            except:
-                # time.sleep(3)
-                # self.driver.switch_to.window(self.driver.window_handles[0])
-                self.driver.refresh()
+    #         except:
+    #             # time.sleep(3)
+    #             # self.driver.switch_to.window(self.driver.window_handles[0])
+    #             self.driver.refresh()
 
-                paper_link = paper.find_element(XPATH, 'td').find_element(XPATH, 'a').get_attribute('href')
+    #             paper_link = paper.find_element(XPATH, 'td').find_element(XPATH, 'a').get_attribute('href')
             
             
-            self.grab_paper_info(paper_link)
-            print(len(self.obligations_data), '\n')
+    #         self.grab_paper_info(paper_link)
+    #         print(len(self.obligations_data), '\n')
 
         
 
-        time.sleep(2)
-        self.driver.switch_to.window(self.driver.window_handles[0])
+    #     time.sleep(2)
+    #     self.driver.switch_to.window(self.driver.window_handles[0])
 
-        if self.driver.find_elements(By.CLASS_NAME, 'Pagination-module__item_arrow_mCpmW')[-1].get_attribute("disabled"):       # Если кнопка переключения на следующую страницу отключена - больше данных нет
+    #     if self.driver.find_elements(By.CLASS_NAME, 'Pagination-module__item_arrow_mCpmW')[-1].get_attribute("disabled"):       # Если кнопка переключения на следующую страницу отключена - больше данных нет
+    #         print(f'Вышли из функции, поскольку Больше страниц нет')
+    #         self.driver.quit()
+    #         return(self.obligations_data)
+
+    #     else:
+    #         self.next_layer()
+    
+
+    def elements_iterator(self):
+        # Класс строки с облигацией
+        tr_link_buttons_class = 'TableRowCell-module__row_clickable_noFXY'
+
+        # Найдите все строки с облигациями на странице
+        papers_rows = self.driver.find_elements(By.CLASS_NAME, tr_link_buttons_class)
+
+        # Список ссылок на бумаги
+        papers_links = []
+
+        # Явное ожидание
+        # wait = WebDriverWait(self.driver, 10)  # Ожидание до 10 секунд
+
+        # Сначала собираем ссылки, чтобы избежать ошибки с устаревшими элементами
+        for paper_row in papers_rows:
+            try:
+                # Найдите ссылку на бумагу, используя явные ожидания
+                # paper_link = wait.until(
+                #     EC.presence_of_element_located((By.XPATH, f'{tr_link_buttons_class}//td/a'))
+                # )
+                paper_link = paper_row.find_element(By.XPATH, './/td/a').get_attribute('href')
+                # paper_link = paper_link.get_attribute('href')
+                papers_links.append(paper_link)
+
+            except Exception as e:
+                print(f"Ошибка при поиске ссылки на бумагу: {e}")
+
+        # print(papers_links)
+
+        # Вызовите grab_paper_info для каждой ссылки
+        for paper_link in papers_links:
+            try:
+                self.grab_paper_info(paper_link)
+                print(f"Облигаций обработано: {len(self.obligations_data)}")
+
+            except Exception as e:
+                print(f"Ошибка при получении данных о бумаге: {e}")
+
+        # Проверьте, есть ли следующая страница
+        if self.driver.find_elements(By.CLASS_NAME, 'Pagination-module__item_arrow_mCpmW')[-1].get_attribute("disabled"):
             print(f'Вышли из функции, поскольку Больше страниц нет')
             self.driver.quit()
-            return(self.obligations_data)
-
+            return self.obligations_data
         else:
             self.next_layer()
-            
         
 class DataProcessing():
     def change_url(self, url, start_val, end_val):
@@ -228,7 +295,7 @@ class DataProcessing():
         target_column_name = 'Доходность(% в год)'
 
         # Используйте Plotly Express для создания интерактивного графика
-        fig = px.scatter(df, y=target_column_name, x='Цена', color='Код', size_max=10, hover_data=['Код', "Название", "Цена", "Доходность(% в год)", "Срок(месяца)"])
+        fig = px.scatter(df, y=target_column_name, x='Цена', color='Код', size_max=10, hover_data=['Код', "Название", "Цена", "Доходность(% в год)", "Срок(месяца)", 'Статус квал. инвестора'])
 
         # Настройки осей и заголовка
         fig.update_xaxes(title_text='Цена')

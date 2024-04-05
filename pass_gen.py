@@ -38,4 +38,4 @@ def passw_gen(passw_len = 12, passwords_to_gen : int = 1, use_letters : bool = T
 	
 	return(output)
 
-print(passw_gen(12, 2, use_symbols=False, letters_random_case = True, add_separator_every_n_syms=4))
+print(passw_gen(16, 2, use_symbols=False, letters_random_case = False, add_separator_every_n_syms=4))
